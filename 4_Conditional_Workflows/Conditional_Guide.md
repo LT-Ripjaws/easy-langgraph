@@ -620,4 +620,4 @@ Conditional workflows enable **dynamic, adaptive AI agents**:
 
 ---
 
-*wait for next workflows*
+*Next: Explore iterative workflows in `5_Iterative_Workflow/` to learn generate-evaluate-refine loops with bounded feedback cycles.*
