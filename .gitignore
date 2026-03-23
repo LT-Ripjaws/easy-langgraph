@@ -1,2 +1,5 @@
 .env
+.qwen
+.claude
+.opencode
 AGENTS.md
