@@ -4,3 +4,5 @@
 .opencode
 AGENTS.md
 QWEN.md
+*.pyc
+__pycache__
