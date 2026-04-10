@@ -21,9 +21,20 @@ if user_input:
     with st.chat_message('user'):
         st.text(user_input)
 
-    response = bot.invoke({'messages': [HumanMessage(content=user_input)]}, config = CONFIG)
-    ai_message = response['messages'][-1].content
-    st.session_state['message_history'].append({'role':'assistant', 'content': ai_message})
-    with st.chat_message('assistant'):
-        st.text(ai_message)
+    # This is for the normal way of invoking the bot, but we will be using the stream way in the next step
+    # response = bot.invoke({'messages': [HumanMessage(content=user_input)]}, config = CONFIG)
+    # ai_message = response['messages'][-1].content
+    # st.session_state['message_history'].append({'role':'assistant', 'content': ai_message})
+    # with st.chat_message('assistant'):
+    #     st.text(ai_message)
 
+    # This is for the streaming way of invoking the bot
+    with st.chat_message('assistant'):
+        ai_message = st.write_stream( 
+                        message_chunk.content for message_chunk, metadata in bot.stream(   # stream returns a generator that yields message chunks and metadata
+                        {'messages': [HumanMessage(content=user_input)]},
+                        config = CONFIG,
+                        stream_mode='messages'
+                    )
+                ) 
+    st.session_state['message_history'].append({'role':'assistant', 'content': ai_message}) # appending the final ai message to the message history after the streaming is done, so that it can be loaded in the next session
