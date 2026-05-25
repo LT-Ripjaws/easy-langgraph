@@ -16,7 +16,7 @@ class ChatState(TypedDict):
 
 def chat_node(state: ChatState):
     messages = state['messages']
-    response = llm.invoke(messages).content
+    response = llm.invoke(messages)
     return {'messages': [response]}
 
 
@@ -29,4 +29,3 @@ graph.add_edge(START, 'chat_node')
 graph.add_edge('chat_node', END)
 
 bot = graph.compile(checkpointer=checkpointer)
-
