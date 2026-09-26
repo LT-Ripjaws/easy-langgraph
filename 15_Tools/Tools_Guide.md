@@ -66,7 +66,7 @@ The LLM is not magically executing code. It is producing a structured request th
 The notebook in this folder builds a small LangGraph app that can use tools.
 
 ```text
-10_Tools/
+15_Tools/
 |-- Tooling.ipynb
 ```
 

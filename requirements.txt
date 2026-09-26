@@ -1,0 +1,26 @@
+# Tested on Python 3.12 with the versions noted on the right.
+# langgraph 1.2+ is required for node error handlers and timeouts (22_Fault_Tolerance).
+
+# Core
+langgraph>=1.2,<2                    # 1.2.12
+langchain>=1.0,<2                    # 1.4.2 (create_agent, middleware)
+langchain-core>=1.0,<2               # 1.6.5
+langchain-google-genai>=4.0,<5       # 4.4.0 (Gemini chat + embeddings)
+python-dotenv>=1.0                   # 1.2.3
+
+# Persistence
+langgraph-checkpoint-sqlite>=3.0     # 3.1.1
+
+# Tools and MCP
+langchain-community>=0.4             # 0.4.2
+ddgs>=9                              # DuckDuckGoSearchRun in 15_Tools
+langchain-mcp-adapters>=0.3          # 0.3.2
+mcp>=1.0                             # 1.30.0
+
+# Apps, notebooks and local deployment
+streamlit>=1.40                      # 1.64.0
+jupyter>=1.0                         # 1.1.1
+ipykernel>=6.0                       # 7.3.0
+langgraph-cli[inmem]>=0.4            # 0.4.32 (langgraph dev)
+requests>=2.31                       # 2.34.2
+pydantic>=2.0                        # 2.13.5

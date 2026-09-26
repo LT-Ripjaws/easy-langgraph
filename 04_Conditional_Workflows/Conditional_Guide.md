@@ -112,7 +112,7 @@ If the return values match node names exactly, you can omit the mapping dictiona
 
 A clean example of mathematical branching based on computed conditions.
 
-**File:** `4_Conditional_Workflows/1_Quadratic_Eq_workflow.ipynb`
+**File:** `04_Conditional_Workflows/1_Quadratic_Eq_workflow.ipynb`
 
 ### State Definition
 
@@ -222,7 +222,7 @@ workflow.invoke({'a': 1, 'b': 2, 'c': 5})
 
 A sophisticated conditional workflow using LLMs to classify sentiment and route to appropriate handlers.
 
-**File:** `4_Conditional_Workflows/2_LLM_review_reply_workflow.ipynb`
+**File:** `04_Conditional_Workflows/2_LLM_review_reply_workflow.ipynb`
 
 ### Structured Output Schemas
 
@@ -620,4 +620,4 @@ Conditional workflows enable **dynamic, adaptive AI agents**:
 
 ---
 
-*Next: Explore iterative workflows in `5_Iterative_Workflow/` to learn generate-evaluate-refine loops with bounded feedback cycles.*
+*Next: Explore iterative workflows in `05_Iterative_Workflow/` to learn generate-evaluate-refine loops with bounded feedback cycles.*

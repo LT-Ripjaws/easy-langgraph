@@ -5,7 +5,7 @@ This folder shows how to build a small graph, compile it, and use it as a node i
 ## Files
 
 ```text
-13_Subgraphs/
+19_Subgraphs/
 |-- Subgraphs.ipynb
 |-- Subgraphs_Guide.md
 ```

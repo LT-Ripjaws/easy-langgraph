@@ -683,7 +683,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 After mastering basic chatbots:
 
-- **Conditional Workflows** (`4_Conditional_Workflows/`) — Add routing and decision-making
+- **Conditional Workflows** (`04_Conditional_Workflows/`) — Add routing and decision-making
 - **Tool Integration** — Connect chatbot to external APIs and databases
 - **Human-in-the-Loop** — Add approval steps for critical actions
 - **Advanced Memory** — Use PostgreSQL or Redis for production persistence

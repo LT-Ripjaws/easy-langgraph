@@ -24,7 +24,7 @@
 
 ## 1. What This Folder Builds
 
-The `8_Langgraph_Chatbot` folder builds a full chatbot app with:
+The `11_Langgraph_Chatbot` folder builds a full chatbot app with:
 
 - A LangGraph backend that manages conversation state
 - A Gemini chat model that generates responses
@@ -38,7 +38,7 @@ This is the next step after the basic chatbot example. Instead of only running a
 ## 2. Project Files
 
 ```text
-8_Langgraph_Chatbot/
+11_Langgraph_Chatbot/
 |-- backend.py    # LangGraph state, node, graph, checkpointer, compiled bot
 |-- frontend.py   # Streamlit UI, chat sessions, sidebar, streaming output
 ```
@@ -358,7 +358,7 @@ load_dotenv()
 
 ### 3. Start Streamlit
 
-From inside the `8_Langgraph_Chatbot` folder:
+From inside the `11_Langgraph_Chatbot` folder:
 
 ```bash
 streamlit run frontend.py
@@ -367,7 +367,7 @@ streamlit run frontend.py
 Or from the repository root:
 
 ```bash
-streamlit run 8_Langgraph_Chatbot/frontend.py
+streamlit run 11_Langgraph_Chatbot/frontend.py
 ```
 
 ---

@@ -6,3 +6,8 @@ AGENTS.md
 QWEN.md
 *.pyc
 __pycache__
+# Local virtual environment
+.venv/
+
+# Local run data from `langgraph dev`
+.langgraph_api/

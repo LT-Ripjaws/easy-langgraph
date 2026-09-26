@@ -386,7 +386,7 @@ With a checkpointer:
 pause -> save state -> wait for human -> resume with same thread_id
 ```
 
-This is why the HITL example in `12_Human_in_the_loop` compiles with a checkpointer.
+This is why the HITL example in `18_Human_in_the_loop` compiles with a checkpointer.
 
 ---
 

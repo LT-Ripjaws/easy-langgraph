@@ -2,11 +2,11 @@
 
 MCP stands for **Model Context Protocol**. It is an open standard for connecting AI applications to external systems such as tools, APIs, databases, files, and reusable prompts.
 
-In this project, MCP is best understood as the next step after `10_Tools`:
+In this project, MCP is best understood as the next step after `15_Tools`:
 
 ```text
-10_Tools: local Python tools inside the same LangGraph app
-11_MCPS: tools/resources/prompts exposed by external MCP servers
+15_Tools: local Python tools inside the same LangGraph app
+17_MCP: tools/resources/prompts exposed by external MCP servers
 ```
 
 ---
@@ -157,7 +157,7 @@ Server -> result -> Client converts result for the AI app
 
 ## 5. MCP vs LangChain Tools
 
-The `10_Tools` folder uses local LangChain tools:
+The `15_Tools` folder uses local LangChain tools:
 
 ```python
 @tool
@@ -214,7 +214,7 @@ llm.bind_tools(tools)
 ToolNode executes tool calls inside LangGraph
 ```
 
-So the graph pattern is almost the same as `10_Tools`; only the source of the tools changes.
+So the graph pattern is almost the same as `15_Tools`; only the source of the tools changes.
 
 ---
 
@@ -472,22 +472,22 @@ Prompts provide reusable instructions.
 The learning path is:
 
 ```text
-6_Basic_Chatbot
+08_Basic_Chatbot
 -> chatbot with message memory
 
-7_Persistance
+09_Persistence
 -> checkpointing and thread state
 
-8_Langgraph_Chatbot
+11_Langgraph_Chatbot
 -> Streamlit UI around the graph
 
-9_Langgraph_Database
+12_Langgraph_Database
 -> SQLite-backed persistence
 
-10_Tools
+15_Tools
 -> local tool calling with ToolNode
 
-11_MCPS
+17_MCP
 -> external tool/resource/prompt servers via MCP
 ```
 
@@ -540,4 +540,4 @@ MCP answers the bigger question:
 How can any compatible AI app discover and use external capabilities safely and consistently?
 ```
 
-In LangGraph, MCP tools are loaded through a client, converted into LangChain-compatible tools, and then used with the same `ToolNode` and `tools_condition` pattern you already saw in `10_Tools`.
+In LangGraph, MCP tools are loaded through a client, converted into LangChain-compatible tools, and then used with the same `ToolNode` and `tools_condition` pattern you already saw in `15_Tools`.

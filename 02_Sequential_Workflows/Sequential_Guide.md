@@ -338,4 +338,4 @@ Modify the notebooks in this folder to experiment with each pattern.
 
 ---
 
-*Next: Explore parallel workflows in `3_Parallel_Workflows/` to learn fan-out/fan-in patterns.*
+*Next: Explore parallel workflows in `03_Parallel_Workflows/` to learn fan-out/fan-in patterns.*

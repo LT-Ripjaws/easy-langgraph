@@ -1133,7 +1133,7 @@ app.invoke(modified, config)
 - **Official LangGraph Docs:** https://langchain-ai.github.io/langgraph/
 - **Checkpointing Guide:** https://langchain-ai.github.io/langgraph/how-tos/persistence/
 - **Human-in-the-Loop:** https://langchain-ai.github.io/langgraph/how-tos/human_in_the_loop/
-- **This Project's Chatbot Example:** See `6_Basic_Chatbot/1_basic_chatbot.ipynb`
+- **This Project's Chatbot Example:** See `08_Basic_Chatbot/1_basic_chatbot.ipynb`
 
 ---
 

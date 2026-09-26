@@ -14,7 +14,7 @@ This folder shows how to persist LangGraph chatbot memory in a SQLite database i
 ## Key File
 
 ```text
-9_Langgraph_Database/
+12_Langgraph_Database/
 |-- langgraph_database_backend.py
 ```
 
@@ -60,7 +60,7 @@ If you reuse the same `thread_id`, the bot can remember earlier messages. If you
 
 ## Running the Example
 
-From the `9_Langgraph_Database` folder:
+From the `12_Langgraph_Database` folder:
 
 ```bash
 python langgraph_database_backend.py

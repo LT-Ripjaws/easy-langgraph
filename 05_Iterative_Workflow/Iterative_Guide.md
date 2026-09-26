@@ -147,7 +147,7 @@ Without exit conditions, poor-quality outputs could cause the workflow to loop f
 
 A complete example of generate-evaluate-refine in action.
 
-**File:** `5_Iterative_Workflow/1_post_generate_evaluate.ipynb`
+**File:** `05_Iterative_Workflow/1_post_generate_evaluate.ipynb`
 
 ### Specialized LLM Roles
 

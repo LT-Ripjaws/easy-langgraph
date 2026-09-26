@@ -5,7 +5,7 @@ This folder shows how to pause a LangGraph workflow, wait for human input, and t
 ## Files
 
 ```text
-12_Human_in_the_loop/
+18_Human_in_the_loop/
 |-- Human_in_the_loop.ipynb
 |-- Human_in_the_loop_Guide.md
 ```

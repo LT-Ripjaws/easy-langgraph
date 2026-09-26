@@ -150,7 +150,7 @@ class State(TypedDict):
 
 A straightforward parallel workflow computing multiple metrics simultaneously.
 
-**File:** `3_Parallel_Workflows/1_batsman_workflow.ipynb`
+**File:** `03_Parallel_Workflows/1_batsman_workflow.ipynb`
 
 ### State Definition
 
@@ -229,7 +229,7 @@ Each metric calculation is **independent** — none depends on another's output.
 
 A more sophisticated parallel workflow using LLMs to evaluate an essay from multiple angles.
 
-**File:** `3_Parallel_Workflows/2_Essay_LLM_workflow.ipynb`
+**File:** `03_Parallel_Workflows/2_Essay_LLM_workflow.ipynb`
 
 ### Structured Output Schemas
 
@@ -534,4 +534,4 @@ Parallel workflows enable **concurrent execution** in LangGraph:
 
 ---
 
-*Next: Explore conditional workflows in `4_Conditional_Workflows/` to learn dynamic routing and branching patterns.*
+*Next: Explore conditional workflows in `04_Conditional_Workflows/` to learn dynamic routing and branching patterns.*
